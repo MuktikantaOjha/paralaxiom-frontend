@@ -80,14 +80,48 @@
     margin-left: 20px;
 }
 
+
+/* footer section */
+
 .footer {
     padding: 60px;
+    background-color: #031d24;
+    ;
 }
 
-.button {
+
+/* button section */
+
+.btn {
     text-transform: uppercase;
+    background-color: #031d24;
 }
 
 .submit_button {
     float: right;
+}
+
+
+/* sub footer section */
+
+.sub-footer {
+    background-color: #031d24;
+}
+
+small {
+    color: white;
+}
+
+.form-group {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid black;
+}
+
+.form-groupp {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid black;
 }
