@@ -1,62 +1,242 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Jekyll v3.8.5">
-    <title>Starter Template · Bootstrap</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/starter-template/">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+<title></title>
+</head>
+<body>
 
-    <!-- Bootstrap core CSS -->
-<link href="css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- Custom styles for this template -->
-    <link href="css/custom.css" rel="stylesheet">
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+   
+ 
+<!--  First  -->
 
-  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-        <div class="dropdown-menu" aria-labelledby="dropdown01">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
+<div class="container-fluid bg-light">
+		
+     <nav class="navbar navbar-expand-sm navbar-light bg-faded">
+          <!-- name -->
+        <a class="navbar-brand" href="#"><strong>LOGO</strong></a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+         </button>
+                    
+        
+                    
+         <!-- Links -->
+        <div class="collapse navbar-collapse justify-content-end" id="nav-content">   
+            <ul class="navbar-nav">
+               
+			  <li class="nav-item">
+                        <a class="nav-link text-dark text-uppercase" href="#">about</a>
+              </li>
+              <li class="nav-item">
+                        <a class="nav-link text-dark text-uppercase" href="#">usp</a>
+              </li>
+              <li class="nav-item">
+                        <a class="nav-link text-dark text-uppercase" href="#">case studies</a>
+              </li>
+              <li class="nav-item">
+                        <a class="nav-link text-dark text-uppercase" href="#">features</a>
+              </li>
+              <li class="nav-item">
+                        <a class="nav-link text-dark text-uppercase" href="#">roadmap</a>
+              </li>
+              <li class="nav-item">
+                        <a class="nav-link text-dark text-uppercase" href="#">team</a>
+              </li>
+              <li class="nav-item">
+                        <a class="nav-link text-dark text-uppercase" href="#">connect</a>
+              </li>
+            </ul>
         </div>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
+             
+     </nav>
+	 </div>
 
-<main role="main" class="container">
+<style>
 
-  <div class="starter-template">
-    <h1>Bootstrap starter template</h1>
-    <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
-  </div>
+.usecases{
+    background-color: #000;
+   
+}
 
-</main><!-- /.container -->
+
+.video-background-holder {
+  position: relative;
+  background-color: black;
+  height: calc(103vh - 72px);
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.video-background-holder video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.video-background-content {
+  position: relative;
+  z-index: 2;
+}
+
+.video-background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  
+  opacity: 0.5;
+  z-index: 1;
+}
+
+
+
+
+
+</style>
+
+
+<div class="video-background-holder">
+        <div class="video-background-overlay"></div>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+              <source src="b.mp4" type="video/mp4">
+          </video>
+      
+</div>
+
+   
+
+
+
+<div class="usecases">
+
+<div class="container-fluid">
+    
+<div class="usecasesh">
+
+
+
+<div id="myCarousel" class="carousel slide bg-inverse w-80 ml-auto mr-auto " data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+                <div class="row">
+                <div class="col-md-6">
+                  <div>
+                    <img alt="Web Studio" class="img-fluid" src="img/b1.jpg" />
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-5 ml-auto d-flex align-items-top mt-4 mt-md-0 pt-2">
+                  <div>
+                    <h2 class="text-light">Business Ideas</h2>
+                    <p  class=" text-light margin-top-s">If you’re wondering how you can make your employees happier at work, this is one of the best business articles to read. Schwartz and Porath dive deep into what motivates people—and what pushes them away.
+
+                            Or if you’re one of those 9-to-5 employees who hates your job, this might be one of the best business articles to inspire you to take your career into your own hands.</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+                <div class="row">
+                <div class="col-md-6">
+                  <div>
+                    <img alt="Web Studio" class="img-fluid" src="img/b2.jpg" />
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-5 ml-auto d-flex align-items-top mt-4 mt-md-0 pt-2">
+                  <div>
+                    <h2 class="text-light">Business Analyst</h2>
+                    <p class="text-light margin-top-s">Despite what you might have learned from “Silicon Valley” or “The Social Network,” not every entrepreneur is a 20something male wearing a hoodie.
+
+                            If you’re looking for business articles that will reassure you that you’re not too young to start your own business, then you’ve found one in this infographic. Entrepreneurs are of all ages and come from all walks of life, and Anna Vital’s infographic will convince you of that.</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+               <div class="row">
+                <div class="col-md-6">
+                  <div>
+                    <img alt="Web Studio" class="img-fluid" src="img/b3.jpg" />
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-5 ml-auto d-flex align-items-top mt-4 mt-md-0 pt-2">
+                  <div>
+                    <h2 class="text-light">Business Article</h2>
+                    <p class="text-light margin-top-s">“Meeting the Challenge of Disruptive Change,” by legendary economics scholar Clayton Christensen and business consultant Michael Overdorf, is one of the best business articles for entrepreneurs who need help getting a handle on change in their business.
+
+                            Growing pains are an inevitable part of any successful small business. This article helps business owners identify when their companies desperately need a change or how to handle change when it’s thrown their way.</p>
+                  </div>
+                </div>
+              
+          </div>
+        </div>
+       <!-- <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>-->
+      </div>
+    </div>
+    </div>
+</div> 
+</div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script></body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </html>
