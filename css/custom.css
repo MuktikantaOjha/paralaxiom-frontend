@@ -1,7 +1,127 @@
-body {
-    padding-top: 5rem;
-  }
-  .starter-template {
-    padding: 3rem 1.5rem;
+/* Contect us section */
+
+.faq-link img {
+    float: left;
+    margin-right: 16px;
+}
+
+.faq-link {
+    color: #fff;
+    text-decoration: none;
+    margin-top: 48px;
+    display: block;
+    overflow: hidden;
+}
+
+.faq-link:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.faq-link span {
+    font-size: 40px;
+    display: block;
+    text-transform: uppercase;
+    font-family: 'BentonSans-bold';
+}
+
+.faq-link h4 {
+    font-size: 16px;
+    float: left;
+}
+
+.know-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+/* For know more about us Section */
+
+.list4 {
+    list-style: none;
+    margin: 16px 0px;
+    padding: 0px;
+}
+
+.list4 li {
+    margin-right: 76px;
+    float: left;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.list4 a img {
+    display: block;
+    margin: 0 auto;
+}
+
+.list4 a {
+    color: #fff;
     text-align: center;
-  }
+    font-size: 14px;
+    display: block;
+    font-weight: 'bold';
+}
+
+.list4 li span {
+    height: 68px;
+    display: block;
+}
+
+.list4 li.last {
+    margin-right: 0px;
+}
+
+.mob-menu-logo-holder {
+    padding-top: 0px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+
+/* footer section */
+
+.footer {
+    padding: 60px;
+    background-color: #031d24;
+    ;
+}
+
+
+/* button section */
+
+.btn {
+    text-transform: uppercase;
+    background-color: #031d24;
+}
+
+.submit_button {
+    float: right;
+}
+
+
+/* sub footer section */
+
+.sub-footer {
+    background-color: #031d24;
+}
+
+small {
+    color: white;
+}
+
+.form-group {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid black;
+}
+
+.form-groupp {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid black;
+}
