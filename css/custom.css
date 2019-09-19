@@ -125,3 +125,138 @@ small {
     background: transparent;
     border-bottom: 1px solid black;
 }
+
+/* muktikanta */
+
+
+
+.feature-section{
+    background:#F1F1F1;
+    margin-top:12px;
+    padding:54px 0px 50px;
+    margin-bottom:56px;
+}
+
+.para-text2{
+   font-size:16px;  
+}
+
+.carousel{
+    margin-top:68px;
+}
+
+.item{
+    text-align:center;
+}
+
+.item .list1{
+    list-style:none;
+    text-align:left;
+    /*padding:0px;*/
+    width:98%;
+    margin:0 auto;
+}
+
+
+.feature-heading{
+    font-size:16px;
+    font-family: 'BentonSans-Medium';
+    display:block;
+    margin:20px 0px;
+}
+
+.list1 li{
+    font-family: 'BentonSans-book';
+    font-size:14px;
+    margin-bottom:2px;
+    clear: both;
+    list-style-image: url(../images/bulb.png);
+}
+
+
+.carousel-indicators{
+    
+    bottom:-48px;
+}
+
+
+.list1 li i{
+    margin-right:4px;
+    float:left;
+    margin-bottom:6px;
+    margin-top:2px;
+    width: 8px;
+    display: none;
+}
+
+.list1 li p {
+    margin-bottom: 0;
+    /*float: left;*/
+    /*width: calc(100% - 12px);*/
+}
+
+.carousel-inner{
+    margin-bottom:20px;
+}
+
+
+
+
+.list2{
+    width:88%;
+    margin:40px auto 0px;
+    overflow:hidden;
+}
+
+
+.list2 li{
+    padding:0px 8px;
+}
+
+
+
+
+
+
+
+.heading1{
+    margin-top:68px;
+}
+
+
+
+
+.carousel1 .item img{
+    float:left;
+    margin-right:3px;
+    margin-bottom:3px;
+}
+
+.carousel-control.right{
+    background:url(../images/next.png) no-repeat;
+    opacity:1;
+    right: 10px;
+}
+
+.carousel-control.left{
+    background:url(../images/prev.png) no-repeat;
+    opacity:1;
+}
+
+.carousel1 .carousel-inner{
+    margin:0px 0px 30px 28px;
+    overflow:hidden;
+    width:96%;
+}
+
+.carousel1{
+    margin-top:40px;
+}
+
+
+.carousel-control{
+    top:53%;
+    width:17px;
+    height:auto;
+}
+
