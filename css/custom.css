@@ -1,11 +1,4 @@
 /* Contect us section */
-.list1 li{
-    font-family: 'BentonSans-book';
-    font-size:14px;
-    margin-bottom:2px;
-    clear: both;
-    list-style-image: url(../images/bulb.png);
-}
 
 .faq-link img {
     float: left;
@@ -157,10 +150,6 @@ small {
 }
 
 .item .list1{
-
-
-  
-
     list-style:none;
     text-align:left;
     /*padding:0px;*/
@@ -214,7 +203,6 @@ small {
 
 
 .list2{
-
     width:88%;
     margin:40px auto 0px;
     overflow:hidden;
@@ -271,11 +259,10 @@ small {
     width:17px;
     height:auto;
 }
-.row{
-    text-decoration:;
-}
+
 .row{
     list-style-type: none;
 }
-
-
+.feature-heading{
+    list-style-type: none;
+}
